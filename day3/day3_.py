@@ -1,0 +1,1 @@
+print(sum((ord(d:=list(set(a)&set(b)&set(c))[0])-38-58*d.islower()for(a,b,c)in zip(*[iter(open('i').read().split())]*3))))
