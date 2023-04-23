@@ -8,3 +8,5 @@ elves_inventory_summation = [
 
 print("Part 1:", max( elves_inventory_summation ))
 print("Part 2:", sum( sorted(elves_inventory_summation)[-3:] ))
+
+# Een aanpassing
